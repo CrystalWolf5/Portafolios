@@ -1,0 +1,27 @@
+        footer,h1{
+            text-align: center;
+        }
+
+        img{
+            float: right; width: 10%; height: auto;
+        }
+
+        body{
+            background: #000000;
+            background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(82, 21, 21, 1) 50%, rgba(176, 0, 0, 1) 100%);
+            color: white;
+        }
+
+        .fborde{
+            border: white solid 2px;
+            width: 300px;
+            height: auto;
+        }
+
+        form{
+            margin-left: 20px;
+        }
+
+        .boton{
+            margin-left: 98px;
+        }
