@@ -50,14 +50,26 @@
         <div class="estudios" id="estudios">
             <h2>Estudios:</h2>
 
-            <ul>
+            <ul id="listaEstudios" class="listaEstudios">
                 <li>
-                    La Educación Secundaria Obligatoria (ESO)
+                    Educación Secundaria Obligatoria (ESO)
                 </li>
                 <li>
                     Sistemas Microinformáticos y Redes (SMR)
                 </li>
             </ul>
+
+            <button type="button" class="boton" id="mostrarFormulario">Añadir Nuevo Estudio</button>
+
+            <div id="formularioEstudio" class="formularioEstudio" style="display: none;">
+                <!-- Aqui tiene que estar el display: none; en el html porque si no tendria que dar 2 clicks al boton para mostrar el formulario -->
+
+                <input type="text" id="nuevoEstudio" placeholder="Escribe un estudio">
+
+                <button type="button" class="boton" id="agregarEstudio">
+                    Añadir
+                </button>
+            </div>
         </div>
 
         <div class="habilidades" id="habilidades">
