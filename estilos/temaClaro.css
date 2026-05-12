@@ -1,0 +1,45 @@
+.light-mode {
+    background: linear-gradient(135deg, #f3f4f6, #e5e7eb, #ef4444);
+    color: #111827;
+}
+
+.light-mode .aficiones,
+.light-mode .fborde,
+.light-mode .sobreMi,
+.light-mode .habilidades,
+.light-mode .estudios,
+.light-mode .objetivos,
+.light-mode .proyectos,
+.light-mode .galeria-grid,
+.light-mode header,
+.light-mode footer {
+    background-color: #ffffff;
+    color: #111827;
+}
+
+.light-mode input,
+.light-mode textarea {
+    background-color: #d1d5db;
+    color: #111827;
+}
+
+.light-mode .red-social,
+.light-mode .caja {
+    background-color: #e5e7eb;
+    color: #111827;
+}
+
+.light-mode h2,
+.light-mode h3 {
+    color: #dc2626;
+}
+
+.light-mode .red-social:hover,
+.light-mode .caja:hover {
+    background-color: #dc2626;
+    color: white;
+}
+
+.light-mode p {
+    color: black;
+}
