@@ -12,7 +12,8 @@
 .light-mode .proyectos,
 .light-mode .galeria-grid,
 .light-mode header,
-.light-mode footer {
+.light-mode footer,
+.light-mode .github {
     background-color: #ffffff;
     color: #111827;
 }
