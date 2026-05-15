@@ -18,6 +18,11 @@
     color: #111827;
 }
 
+.light-mode .card{
+    background-color: #e5e7eb;
+    color: #111827;
+}
+
 .light-mode input,
 .light-mode textarea {
     background-color: #d1d5db;
